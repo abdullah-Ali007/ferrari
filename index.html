@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferrari F1 Fan Club PRO</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Background music -->
+  <audio autoplay loop>
+    <source src="audio/ferrari-theme.mp3" type="audio/mpeg">
+  </audio>
+
+  <header>
+    <div class="logo">Ferrari F1</div>
+    <nav>
+      <a href="#team">Team</a>
+      <a href="#drivers">Drivers</a>
+      <a href="#car">The Car</a>
+      <a href="#news">News</a>
+      <a href="#countdown">Countdown</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="car-animation"></div>
+    <h1>Passion. Speed. Glory.</h1>
+    <p>Welcome to the ultimate Ferrari F1 Fan Club</p>
+  </section>
+
+  <section id="team">
+    <h2>The Team</h2>
+    <p>Scuderia Ferrari — Legendary victories, iconic drivers, unrivaled engineering since 1950.</p>
+  </section>
+
+  <section id="drivers" class="drivers">
+    <h2>Our Drivers</h2>
+    <div class="driver-cards">
+      <div class="card">
+        <img src="images/leclerc.jpg" alt="Charles Leclerc">
+        <h3>Charles Leclerc</h3>
+      </div>
+      <div class="card">
+        <img src="images/sainz.jpg" alt="Carlos Sainz">
+        <h3>Carlos Sainz</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="car">
+    <h2>The SF-24</h2>
+    <p>Precision, performance, and the spirit of racing. The SF-24 represents Ferrari’s cutting-edge engineering.</p>
+  </section>
+
+  <section id="news">
+    <h2>Latest Ferrari F1 News</h2>
+    <div id="news-feed">
+      <p>Loading latest news...</p>
+    </div>
+  </section>
+
+  <section id="countdown">
+    <h2>Next Grand Prix Countdown</h2>
+    <div id="timer"></div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="images/ferrari1.jpg" alt="Ferrari Car">
+      <img src="images/ferrari2.jpg" alt="Race Track">
+      <img src="images/ferrari3.jpg" alt="Podium">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Join the Tifosi!</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Join Us</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Ferrari F1 Fan Club | Made by Abdullah Ali</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
