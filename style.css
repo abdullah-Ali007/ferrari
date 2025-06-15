@@ -1,3 +1,18 @@
+#play-music {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #FF2800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+
 * {
   margin: 0;
   padding: 0;
