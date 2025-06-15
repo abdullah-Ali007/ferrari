@@ -1,3 +1,10 @@
+
+document.getElementById("play-music").addEventListener("click", function () {
+  const audio = document.getElementById("bg-music");
+  audio.play();
+  this.style.display = "none"; // hide button after playing
+});
+
 // COUNTDOWN TIMER
 const eventDate = new Date("July 28, 2025 14:00:00").getTime();
 
